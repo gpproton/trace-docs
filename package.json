@@ -1,0 +1,34 @@
+{
+  "name": "@trace/docs",
+  "description": "Trace documentation",
+  "version": "0.0.1",
+  "private": true,
+  "author": "radioActive DROID <me@godwin.dev>",
+  "license": "AGPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpproton/trace-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gpproton/trace-docs/issues"
+  },
+  "homepage": "https://docs.trace.ng",
+  "scripts": {
+    "setup": "pnpm run rimraf node_modules && pnpm install",
+    "dev": "vitepress dev files",
+    "preview": "vitepress preview files",
+    "build": "vitepress build files",
+    "clean": "",
+    "serve": "vitepress serve files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vitepress": "^0.22.3"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1",
+    "pnpm": ">=3"
+  }
+}
